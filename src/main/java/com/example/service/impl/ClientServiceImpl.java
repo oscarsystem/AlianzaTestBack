@@ -57,7 +57,7 @@ public class ClientServiceImpl implements ClientService {
 	@Override
 	public List<Client> findClientBySharedKey(String sharedKey) throws Exception {
 		try {
-			log.info("Find client");
+			log.info("Find client by sharedKey");
 			return clientRepository.findBySharedKey(sharedKey);
 		}catch (Exception e) {
 			log.error("Error add client");

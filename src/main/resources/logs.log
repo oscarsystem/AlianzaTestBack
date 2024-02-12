@@ -678,3 +678,112 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 2024-02-11 23:16:29.752 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-02-11 23:16:29.753 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2024-02-11 23:16:29.760 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-02-11 23:16:44.483 [main] INFO  c.example.AlianzaTestBackApplication - Starting AlianzaTestBackApplication using Java 17.0.7 with PID 11036 (C:\Users\Oscar Chavez\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AlianzaTestBack\target\classes started by Oscar Chavez in C:\Users\Oscar Chavez\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AlianzaTestBack)
+2024-02-11 23:16:44.485 [main] DEBUG c.example.AlianzaTestBackApplication - Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-02-11 23:16:44.486 [main] INFO  c.example.AlianzaTestBackApplication - No active profile set, falling back to 1 default profile: "default"
+2024-02-11 23:16:45.012 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-11 23:16:45.059 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interface.
+2024-02-11 23:16:45.484 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-02-11 23:16:45.498 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-11 23:16:45.498 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-11 23:16:45.557 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-11 23:16:45.558 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1022 ms
+2024-02-11 23:16:45.692 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-11 23:16:45.743 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-11 23:16:45.775 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-02-11 23:16:45.978 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-11 23:16:46.002 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-02-11 23:16:46.112 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@148ab138
+2024-02-11 23:16:46.114 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-02-11 23:16:46.139 [main] WARN  org.hibernate.dialect.Dialect - HHH000511: The 11.10.0 version for [org.hibernate.dialect.PostgreSQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 12.0.0. Check the community dialects project for available legacy versions.
+2024-02-11 23:16:46.143 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-02-11 23:16:46.303 [main] WARN  org.hibernate.id.UUIDHexGenerator - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2024-02-11 23:16:46.852 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-11 23:16:46.900 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-11 23:16:47.158 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-11 23:16:47.458 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-02-11 23:16:47.467 [main] INFO  c.example.AlianzaTestBackApplication - Started AlianzaTestBackApplication in 3.451 seconds (process running for 4.066)
+2024-02-11 23:17:14.943 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-11 23:17:14.943 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-02-11 23:17:14.945 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-02-11 23:19:46.891 [http-nio-8080-exec-4] INFO  c.e.service.impl.ClientServiceImpl - Added client
+2024-02-11 23:19:46.891 [http-nio-8080-exec-4] INFO  c.e.service.impl.ClientServiceImpl - createSharedKey
+2024-02-11 23:20:09.053 [http-nio-8080-exec-6] INFO  c.e.service.impl.ClientServiceImpl - Added client
+2024-02-11 23:20:09.053 [http-nio-8080-exec-6] INFO  c.e.service.impl.ClientServiceImpl - createSharedKey
+2024-02-11 23:36:36.511 [RMI TCP Connection(23)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2024-02-11 23:36:36.579 [RMI TCP Connection(23)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-11 23:36:36.590 [RMI TCP Connection(23)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-02-11 23:36:36.605 [RMI TCP Connection(23)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-02-11 23:45:38.074 [main] INFO  c.example.AlianzaTestBackApplication - Starting AlianzaTestBackApplication using Java 17.0.7 with PID 1008 (C:\Users\Oscar Chavez\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AlianzaTestBack\target\classes started by Oscar Chavez in C:\Users\Oscar Chavez\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AlianzaTestBack)
+2024-02-11 23:45:38.080 [main] DEBUG c.example.AlianzaTestBackApplication - Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-02-11 23:45:38.082 [main] INFO  c.example.AlianzaTestBackApplication - No active profile set, falling back to 1 default profile: "default"
+2024-02-11 23:45:39.285 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-11 23:45:39.393 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 88 ms. Found 1 JPA repository interface.
+2024-02-11 23:45:40.323 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-02-11 23:45:40.361 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-11 23:45:40.362 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-11 23:45:40.498 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-11 23:45:40.499 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2319 ms
+2024-02-11 23:45:40.787 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-11 23:45:40.916 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-11 23:45:40.990 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-02-11 23:45:41.500 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-11 23:45:41.553 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-02-11 23:45:41.812 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@485451d8
+2024-02-11 23:45:41.815 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-02-11 23:45:41.932 [main] WARN  org.hibernate.dialect.Dialect - HHH000511: The 11.10.0 version for [org.hibernate.dialect.PostgreSQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 12.0.0. Check the community dialects project for available legacy versions.
+2024-02-11 23:45:41.947 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-02-11 23:45:42.275 [main] WARN  org.hibernate.id.UUIDHexGenerator - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2024-02-11 23:45:43.514 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-11 23:45:43.681 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-11 23:45:44.259 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-11 23:45:44.831 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-02-11 23:45:44.848 [main] INFO  c.example.AlianzaTestBackApplication - Started AlianzaTestBackApplication in 8.1 seconds (process running for 9.534)
+2024-02-11 23:46:11.150 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-11 23:46:11.151 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-02-11 23:46:11.154 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-02-12 00:41:02.638 [http-nio-8080-exec-2] INFO  c.e.service.impl.ClientServiceImpl - Added client
+2024-02-12 00:41:02.657 [http-nio-8080-exec-2] INFO  c.e.service.impl.ClientServiceImpl - createSharedKey
+2024-02-12 00:41:10.010 [http-nio-8080-exec-5] INFO  c.e.service.impl.ClientServiceImpl - Find client by sharedKey
+2024-02-12 00:46:13.497 [main] INFO  c.e.AlianzaTestBackApplicationTests - Starting AlianzaTestBackApplicationTests using Java 17.0.7 with PID 15344 (started by Oscar Chavez in C:\Users\Oscar Chavez\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AlianzaTestBack)
+2024-02-12 00:46:13.497 [main] DEBUG c.e.AlianzaTestBackApplicationTests - Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-02-12 00:46:13.507 [main] INFO  c.e.AlianzaTestBackApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-02-12 00:46:14.856 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-12 00:46:14.970 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 94 ms. Found 1 JPA repository interface.
+2024-02-12 00:46:16.070 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-12 00:46:16.364 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-12 00:46:16.546 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-02-12 00:46:17.540 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-12 00:46:17.649 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-02-12 00:46:18.008 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@770cae59
+2024-02-12 00:46:18.020 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-02-12 00:46:18.115 [main] WARN  org.hibernate.dialect.Dialect - HHH000511: The 11.10.0 version for [org.hibernate.dialect.PostgreSQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 12.0.0. Check the community dialects project for available legacy versions.
+2024-02-12 00:46:18.157 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-02-12 00:46:18.664 [main] WARN  org.hibernate.id.UUIDHexGenerator - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2024-02-12 00:46:20.234 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-12 00:46:20.344 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-12 00:46:21.428 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-12 00:46:22.253 [main] INFO  c.e.AlianzaTestBackApplicationTests - Started AlianzaTestBackApplicationTests in 9.489 seconds (process running for 11.78)
+2024-02-12 00:46:23.328 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.repository.ClientRepositoryTest]: ClientRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-02-12 00:46:23.406 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.AlianzaTestBackApplication for test class com.example.repository.ClientRepositoryTest
+2024-02-12 00:46:23.453 [main] INFO  c.e.repository.ClientRepositoryTest - Starting ClientRepositoryTest using Java 17.0.7 with PID 15344 (started by Oscar Chavez in C:\Users\Oscar Chavez\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\AlianzaTestBack)
+2024-02-12 00:46:23.453 [main] DEBUG c.e.repository.ClientRepositoryTest - Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-02-12 00:46:23.453 [main] INFO  c.e.repository.ClientRepositoryTest - No active profile set, falling back to 1 default profile: "default"
+2024-02-12 00:46:23.652 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-12 00:46:23.668 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interface.
+2024-02-12 00:46:23.685 [main] INFO  o.s.b.t.a.j.TestDatabaseAutoConfiguration$EmbeddedDataSourceBeanFactoryPostProcessor - Replacing 'dataSource' DataSource bean with embedded version
+2024-02-12 00:46:23.736 [main] INFO  o.s.j.d.e.EmbeddedDatabaseFactory - Starting embedded database: url='jdbc:h2:mem:74dfbc13-505f-4821-9193-f7e29a2dda57;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2024-02-12 00:46:24.264 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-12 00:46:24.264 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-02-12 00:46:24.280 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-12 00:46:24.290 [main] WARN  org.hibernate.dialect.Dialect - HHH000511: The 2.2.0 version for [org.hibernate.dialect.PostgreSQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 12.0.0. Check the community dialects project for available legacy versions.
+2024-02-12 00:46:24.296 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-02-12 00:46:24.359 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-12 00:46:24.437 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-12 00:46:24.531 [main] INFO  c.e.repository.ClientRepositoryTest - Started ClientRepositoryTest in 1.125 seconds (process running for 14.065)
+2024-02-12 00:46:25.300 [main] INFO  c.e.service.impl.ClientServiceImpl - Added client
+2024-02-12 00:46:25.300 [main] INFO  c.e.service.impl.ClientServiceImpl - createSharedKey
+2024-02-12 00:46:25.441 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-12 00:46:25.441 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-02-12 00:46:25.456 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-02-12 00:46:25.472 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
