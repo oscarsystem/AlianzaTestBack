@@ -9,8 +9,12 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import lombok.Getter;
+import lombok.Setter;
 
 @Entity
+@Getter
+@Setter
 @Table(name = "Cliente")
 public class Client {
 	
@@ -37,53 +41,5 @@ public class Client {
 	
 	@Column(name = "DATE_END", nullable = true)
 	private LocalDate dateEnd;
-
-	public String getId() {
-		return id;
-	}
-
-	public void setId(String id) {
-		this.id = id;
-	}
-
-	public String getSharedKey() {
-		return sharedKey;
-	}
-
-	public void setSharedKey(String sharedKey) {
-		this.sharedKey = sharedKey;
-	}
-
-	public String getNames() {
-		return names;
-	}
-
-	public void setNames(String names) {
-		this.names = names;
-	}
-
-	public String getEmail() {
-		return email;
-	}
-
-	public void setEmail(String email) {
-		this.email = email;
-	}
-
-	public String getPhone() {
-		return phone;
-	}
-
-	public void setPhone(String phone) {
-		this.phone = phone;
-	}
-
-	public LocalDate getDateAdd() {
-		return dateAdd;
-	}
-
-	public void setDateAdd(LocalDate dateAdd) {
-		this.dateAdd = dateAdd;
-	}
 		
 }
